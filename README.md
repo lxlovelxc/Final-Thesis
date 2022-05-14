@@ -6,5 +6,5 @@ There are 2 versions of this app,
 1st one can achieve core function,
 You can download it, and Run in your RStudio,
 change the path in line 66 to your Desktop, 
-and Create a new folder named ne, change it in line 174,
+and Create a new folder named ne, change it in line 147,
 then you can run it.
