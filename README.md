@@ -6,3 +6,6 @@ You can download app.R, and Run in your RStudio,
 change the path in line 106 to your Desktop, 
 and Create a new folder named ne, change it in line 184,
 then you can run it.
+
+
+You can download the Test Data hg19_pbmc3k to have a test.
