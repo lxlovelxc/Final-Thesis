@@ -182,7 +182,7 @@ shinyApp(
       
     observeEvent(input$go,{
       cat("you have success!\n")
-      rna_data <- Read10X(data.dir = 'C:/Users/luoxi/Desktop/ne')
+      rna_data <- Read10X(data.dir = 'C:/Users/luoxi/Desktop/new')
       rna <- CreateSeuratObject(counts = rna_data,min.cells = 3, min.features = 200)
       rna[["percent.mt"]] <- PercentageFeatureSet(rna, pattern = "^MT-") 
       VlnPlot <- VlnPlot(rna, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
